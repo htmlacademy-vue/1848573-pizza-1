@@ -2,7 +2,6 @@
   "dough": [
     {
       "id": 1,
-      "value": "light",
       "name": "Тонкое",
       "image": "/public/img/dough-light.svg",
       "description": "Из твердых сортов пшеницы",
@@ -10,7 +9,6 @@
     },
     {
       "id": 2,
-      "value": "large",
       "name": "Толстое",
       "image": "/public/img/dough-large.svg",
       "description": "Из твердых сортов пшеницы",
@@ -37,13 +35,11 @@
   "sauces": [
     {
       "id": 1,
-      "value": "tomato",
       "name": "Томатный",
       "price": 50
     },
     {
       "id": 2,
-      "value": "creamy",
       "name": "Сливочный",
       "price": 50
     }
@@ -51,21 +47,18 @@
   "sizes": [
     {
       "id": 1,
-      "value": "small",
       "name": "23 см",
       "image": "/public/img/diameter.svg",
       "multiplier": 1
     },
     {
       "id": 2,
-      "value": "normal",
       "name": "32 см",
       "image": "/public/img/diameter.svg",
       "multiplier": 2
     },
     {
       "id": 3,
-      "value": "big",
       "name": "45 см",
       "image": "/public/img/diameter.svg",
       "multiplier": 3
