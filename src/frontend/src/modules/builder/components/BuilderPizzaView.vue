@@ -26,8 +26,7 @@
               :key="item.id"
               class="pizza__filling"
               :class="item.class"
-            >
-            </div>
+            ></div>
           </div>
         </div>
       </div>

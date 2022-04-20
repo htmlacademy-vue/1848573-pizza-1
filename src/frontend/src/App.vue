@@ -11,9 +11,9 @@ import Index from "@/views/Index";
 import AppLayout from "@/layouts/AppLayout";
 export default {
   name: "App",
-  components: { 
+  components: {
     Index,
-    AppLayout, 
+    AppLayout,
   },
 };
 </script>

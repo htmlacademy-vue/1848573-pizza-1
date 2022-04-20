@@ -1,15 +1,15 @@
 <template>
-  <div class="content__ingridients">
+  <div class="content__ingredients">
     <div class="sheet">
       <h2 class="title title--small sheet__title">Выберите ингридиенты</h2>
 
-      <div class="sheet__content ingridients">
-        <div class="ingridients__sauce">
+      <div class="sheet__content ingredients">
+        <div class="ingredients__sauce">
           <p>Основной соус:</p>
           <label
             v-for="(sauce, index) in sauces"
             :key="index"
-            class="radio ingridients__input"
+            class="radio ingredients__input"
           >
             <AppRadioButton
               name="sauce"
@@ -21,23 +21,20 @@
           </label>
         </div>
 
-        <div class="ingridients__filling">
+        <div class="ingredients__filling">
           <p>Начинка:</p>
 
-          <ul class="ingridients__list">
+          <ul class="ingredients__list">
             <li
               v-for="(ingredient, index) in ingredients"
               :key="index"
-              class="ingridients__item"
+              class="ingredients__item"
             >
               <AppDrag
                 :transferData="ingredient"
                 :is-draggable="ingredient.count < MAX_SAME_INGREDIENT_COUNT"
               >
-                <span
-                  class="filling"
-                  :class="`filling--${ingredient.value}`"
-                >
+                <span class="filling" :class="`filling--${ingredient.value}`">
                   {{ ingredient.name }}
                 </span>
               </AppDrag>
