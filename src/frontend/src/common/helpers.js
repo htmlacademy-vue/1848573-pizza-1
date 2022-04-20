@@ -26,3 +26,4 @@ export const getPizzaData = (pizza) => ({
 
 export const getSelectedPizzaItem = (pizza, name) =>
   pizza[name] && pizza[name].find((item) => item.checked);
+  
