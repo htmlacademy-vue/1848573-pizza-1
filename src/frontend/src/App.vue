@@ -1,18 +1,16 @@
 <template>
   <div id="app">
     <AppLayout>
-      <Index />
+      <router-view />
     </AppLayout>
   </div>
 </template>
 
 <script>
-import Index from "@/views/Index";
 import AppLayout from "@/layouts/AppLayout";
 export default {
   name: "App",
   components: {
-    Index,
     AppLayout,
   },
 };
@@ -20,4 +18,7 @@ export default {
 
 <style lang="scss">
 @import "~@/assets/scss/app";
+#app {
+  min-height: inherit;
+}
 </style>
