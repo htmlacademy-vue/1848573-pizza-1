@@ -20,7 +20,8 @@
         История заказов
       </router-link>
       <router-link
-        class="layout__link layout__link--active"
+        class="layout__link"
+        active-class="layout__link--active"
         to="/profile"
       >
         Мои данные
